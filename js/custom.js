@@ -119,8 +119,6 @@ $(document).ready(function(){
             $("#" + element.attr("for")).parent().removeClass("error");
         },
         submitHandler: function(form) {
-            var image1 = $('#modelImage1').prop('files')[0];
-            var image2 = $('#modelImage2').prop('files')[0];
             var data = {
                 name : $('#modelName').val(),
                 registration_number : $('#modelNumber').val(),
